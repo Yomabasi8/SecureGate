@@ -1,0 +1,471 @@
+/* ==========================================================================
+   DESIGN TOKENS - AUTO-GENERATED CSS VARIABLES
+   ========================================================================== */
+
+:root {
+  /* ------------------------------------------------------------------------
+     1. COLOR PRIMITIVES (Internal use only - the UI should only use color roles)
+     ------------------------------------------------------------------------ */
+
+  /* Key Colors */
+  --color-key-primary: hsl(256, 34%, 48%);
+  --color-key-secondary: hsl(259, 11%, 40%);
+  --color-key-tertiary: hsl(340, 21%, 41%);
+  --color-key-neutral: hsl(276, 3%, 37%);
+  --color-key-neutralVariant: hsl(260, 4%, 38%);
+
+  /* Palette Colors */
+  /* Primary Tones */
+  --color-palette-primary-0: hsl(0, 0%, 0%);
+  --color-palette-primary-10: hsl(262, 100%, 18%);
+  --color-palette-primary-20: hsl(258, 57%, 28%);
+  --color-palette-primary-30: hsl(256, 42%, 38%);
+  --color-palette-primary-40: hsl(256, 34%, 48%);
+  --color-palette-primary-50: hsl(256, 40%, 58%);
+  --color-palette-primary-60: hsl(256, 54%, 68%);
+  --color-palette-primary-70: hsl(256, 85%, 79%);
+  --color-palette-primary-80: hsl(256, 100%, 87%);
+  --color-palette-primary-87: hsl(259, 100%, 91%);
+  --color-palette-primary-90: hsl(259, 100%, 93%);
+  --color-palette-primary-92: hsl(262, 100%, 95%);
+  --color-palette-primary-94: hsl(266, 100%, 96%);
+  --color-palette-primary-95: hsl(265, 100%, 97%);
+  --color-palette-primary-96: hsl(270, 100%, 97%);
+  --color-palette-primary-98: hsl(285, 100%, 98%);
+  --color-palette-primary-99: hsl(300, 100%, 99%);
+  --color-palette-primary-100: hsl(0, 0%, 100%);
+  /* Secondary Tones */
+  --color-palette-secondary-0: hsl(0, 0%, 0%);
+  --color-palette-secondary-10: hsl(257, 26%, 13%);
+  --color-palette-secondary-20: hsl(258, 18%, 22%);
+  --color-palette-secondary-30: hsl(260, 14%, 30%);
+  --color-palette-secondary-40: hsl(259, 11%, 40%);
+  --color-palette-secondary-50: hsl(261, 9%, 50%);
+  --color-palette-secondary-60: hsl(260, 12%, 60%);
+  --color-palette-secondary-70: hsl(262, 17%, 70%);
+  --color-palette-secondary-80: hsl(263, 27%, 81%);
+  --color-palette-secondary-87: hsl(263, 46%, 89%);
+  --color-palette-secondary-90: hsl(262, 69%, 92%);
+  --color-palette-secondary-92: hsl(263, 93%, 95%);
+  --color-palette-secondary-94: hsl(266, 100%, 96%);
+  --color-palette-secondary-95: hsl(270, 100%, 96%);
+  --color-palette-secondary-96: hsl(270, 100%, 97%);
+  --color-palette-secondary-98: hsl(293, 100%, 98%);
+  --color-palette-secondary-99: hsl(300, 100%, 99%);
+  --color-palette-secondary-100: hsl(0, 0%, 100%);
+  /* Tertiary Tones */
+  --color-palette-tertiary-0: hsl(0, 0%, 0%);
+  --color-palette-tertiary-10: hsl(336, 51%, 13%);
+  --color-palette-tertiary-20: hsl(339, 33%, 22%);
+  --color-palette-tertiary-30: hsl(341, 25%, 31%);
+  --color-palette-tertiary-40: hsl(341, 21%, 41%);
+  --color-palette-tertiary-50: hsl(342, 19%, 51%);
+  --color-palette-tertiary-60: hsl(342, 25%, 61%);
+  --color-palette-tertiary-70: hsl(343, 37%, 72%);
+  --color-palette-tertiary-80: hsl(343, 63%, 83%);
+  --color-palette-tertiary-87: hsl(343, 100%, 90%);
+  --color-palette-tertiary-90: hsl(344, 100%, 93%);
+  --color-palette-tertiary-92: hsl(346, 100%, 94%);
+  --color-palette-tertiary-94: hsl(347, 100%, 95%);
+  --color-palette-tertiary-95: hsl(347, 100%, 96%);
+  --color-palette-tertiary-96: hsl(352, 100%, 97%);
+  --color-palette-tertiary-98: hsl(0, 100%, 99%);
+  --color-palette-tertiary-99: hsl(300, 100%, 99%);
+  --color-palette-tertiary-100: hsl(0, 0%, 100%);
+  /* Neutral Tones */
+  --color-palette-neutral-0: hsl(0, 0%, 0%);
+  --color-palette-neutral-10: hsl(270, 7%, 11%);
+  --color-palette-neutral-20: hsl(276, 5%, 19%);
+  --color-palette-neutral-30: hsl(264, 3%, 28%);
+  --color-palette-neutral-40: hsl(276, 3%, 37%);
+  --color-palette-neutral-50: hsl(276, 2%, 47%);
+  --color-palette-neutral-60: hsl(280, 3%, 57%);
+  --color-palette-neutral-70: hsl(288, 3%, 68%);
+  --color-palette-neutral-80: hsl(290, 5%, 78%);
+  --color-palette-neutral-87: hsl(300, 8%, 86%);
+  --color-palette-neutral-90: hsl(290, 11%, 89%);
+  --color-palette-neutral-92: hsl(300, 14%, 91%);
+  --color-palette-neutral-94: hsl(300, 19%, 94%);
+  --color-palette-neutral-95: hsl(300, 23%, 95%);
+  --color-palette-neutral-96: hsl(300, 30%, 96%);
+  --color-palette-neutral-98: hsl(300, 56%, 98%);
+  --color-palette-neutral-99: hsl(300, 100%, 99%);
+  --color-palette-neutral-100: hsl(0, 0%, 100%);
+  /* NeutralVariant Tones */
+  --color-palette-neutralVariant-0: hsl(0, 0%, 0%);
+  --color-palette-neutralVariant-10: hsl(250, 10%, 12%);
+  --color-palette-neutralVariant-20: hsl(257, 7%, 20%);
+  --color-palette-neutralVariant-30: hsl(257, 5%, 29%);
+  --color-palette-neutralVariant-40: hsl(263, 4%, 38%);
+  --color-palette-neutralVariant-50: hsl(262, 3%, 48%);
+  --color-palette-neutralVariant-60: hsl(267, 4%, 58%);
+  --color-palette-neutralVariant-70: hsl(273, 6%, 68%);
+  --color-palette-neutralVariant-80: hsl(273, 8%, 79%);
+  --color-palette-neutralVariant-87: hsl(273, 13%, 86%);
+  --color-palette-neutralVariant-90: hsl(276, 19%, 90%);
+  --color-palette-neutralVariant-92: hsl(276, 25%, 92%);
+  --color-palette-neutralVariant-94: hsl(273, 31%, 94%);
+  --color-palette-neutralVariant-95: hsl(273, 39%, 95%);
+  --color-palette-neutralVariant-96: hsl(273, 53%, 97%);
+  --color-palette-neutralVariant-98: hsl(285, 100%, 98%);
+  --color-palette-neutralVariant-99: hsl(300, 100%, 99%);
+  --color-palette-neutralVariant-100: hsl(0, 0%, 100%);
+
+  /* ------------------------------------------------------------------------
+     2. TYPOGRAPHY TOKENS (Raw values from design system)
+     ------------------------------------------------------------------------ */
+
+  /* Display Styles */
+  /* display large */
+  --typography-display-large-font-size: 57px;
+  --typography-display-large-font-family: Poppins;
+  --typography-display-large-font-weight: 500;
+  --typography-display-large-font-style: normal;
+  --typography-display-large-letter-spacing: 0.143px;
+  --typography-display-large-line-height: 64px;
+  --typography-display-large-text-decoration: none;
+  --typography-display-large-text-case: none;
+  --typography-display-large-font: normal normal 500 57px/64px Poppins;
+  /* display medium */
+  --typography-display-medium-font-size: 45px;
+  --typography-display-medium-font-family: Poppins;
+  --typography-display-medium-font-weight: 500;
+  --typography-display-medium-font-style: normal;
+  --typography-display-medium-letter-spacing: -0.9px;
+  --typography-display-medium-line-height: 52px;
+  --typography-display-medium-text-decoration: none;
+  --typography-display-medium-text-case: none;
+  --typography-display-medium-font: normal normal 500 45px/52px Poppins;
+  /* display small */
+  --typography-display-small-font-size: 36px;
+  --typography-display-small-font-family: SF Pro;
+  --typography-display-small-font-weight: 500;
+  --typography-display-small-font-style: normal;
+  --typography-display-small-letter-spacing: -0.72px;
+  --typography-display-small-line-height: 44px;
+  --typography-display-small-text-decoration: none;
+  --typography-display-small-text-case: none;
+  --typography-display-small-font: normal normal 500 36px/44px SF Pro;
+
+  /* Headline Styles */
+  /* headline large */
+  --typography-headline-large-font-size: 32px;
+  --typography-headline-large-font-family: SF Pro;
+  --typography-headline-large-font-weight: 500;
+  --typography-headline-large-font-style: normal;
+  --typography-headline-large-letter-spacing: 0px;
+  --typography-headline-large-line-height: 40px;
+  --typography-headline-large-text-decoration: none;
+  --typography-headline-large-text-case: none;
+  --typography-headline-large-font: normal normal 500 32px/40px SF Pro;
+  /* headline small */
+  --typography-headline-small-font-size: 24px;
+  --typography-headline-small-font-family: SF Pro;
+  --typography-headline-small-font-weight: 500;
+  --typography-headline-small-font-style: normal;
+  --typography-headline-small-letter-spacing: 0px;
+  --typography-headline-small-line-height: 32px;
+  --typography-headline-small-text-decoration: none;
+  --typography-headline-small-text-case: none;
+  --typography-headline-small-font: normal normal 500 24px/32px SF Pro;
+
+  /* Title Styles */
+  /* tile large */
+  --typography-tile-large-font-size: 22px;
+  --typography-tile-large-font-family: SF Pro;
+  --typography-tile-large-font-weight: 500;
+  --typography-tile-large-font-style: normal;
+  --typography-tile-large-letter-spacing: -0.22px;
+  --typography-tile-large-line-height: 28px;
+  --typography-tile-large-text-decoration: none;
+  --typography-tile-large-text-case: none;
+  --typography-tile-large-font: normal normal 500 22px/28px SF Pro;
+  /* title medium */
+  --typography-title-medium-font-size: 16px;
+  --typography-title-medium-font-family: Poppins;
+  --typography-title-medium-font-weight: 600;
+  --typography-title-medium-font-style: normal;
+  --typography-title-medium-letter-spacing: -0.16px;
+  --typography-title-medium-line-height: 24px;
+  --typography-title-medium-text-decoration: none;
+  --typography-title-medium-text-case: none;
+  --typography-title-medium-font: normal normal 600 16px/24px Poppins;
+  /* title small */
+  --typography-title-small-font-size: 14px;
+  --typography-title-small-font-family: Poppins;
+  --typography-title-small-font-weight: 600;
+  --typography-title-small-font-style: normal;
+  --typography-title-small-letter-spacing: -0.119px;
+  --typography-title-small-line-height: 20px;
+  --typography-title-small-text-decoration: none;
+  --typography-title-small-text-case: none;
+  --typography-title-small-font: normal normal 600 14px/20px Poppins;
+
+  /* Body Styles */
+  /* body large */
+  --typography-body-large-font-size: 16px;
+  --typography-body-large-font-family: Inter;
+  --typography-body-large-font-weight: 500;
+  --typography-body-large-font-style: normal;
+  --typography-body-large-letter-spacing: -0.16px;
+  --typography-body-large-line-height: 24px;
+  --typography-body-large-text-decoration: none;
+  --typography-body-large-text-case: none;
+  --typography-body-large-font: normal normal 500 16px/24px Inter;
+  /* body medium */
+  --typography-body-medium-font-size: 14px;
+  --typography-body-medium-font-family: SF Pro;
+  --typography-body-medium-font-weight: 400;
+  --typography-body-medium-font-style: normal;
+  --typography-body-medium-letter-spacing: -0.119px;
+  --typography-body-medium-line-height: 20px;
+  --typography-body-medium-text-decoration: none;
+  --typography-body-medium-text-case: none;
+  --typography-body-medium-font: normal normal 400 14px/20px SF Pro;
+  /* body small */
+  --typography-body-small-font-size: 12px;
+  --typography-body-small-font-family: SF Pro;
+  --typography-body-small-font-weight: 400;
+  --typography-body-small-font-style: normal;
+  --typography-body-small-letter-spacing: -0.102px;
+  --typography-body-small-line-height: 16px;
+  --typography-body-small-text-decoration: none;
+  --typography-body-small-text-case: none;
+  --typography-body-small-font: normal normal 400 12px/16px SF Pro;
+
+  /* Label Styles */
+  /* label large */
+  --typography-label-large-font-size: 16px;
+  --typography-label-large-font-family: SF Pro;
+  --typography-label-large-font-weight: 500;
+  --typography-label-large-font-style: normal;
+  --typography-label-large-letter-spacing: -0.16px;
+  --typography-label-large-line-height: 20px;
+  --typography-label-large-text-decoration: none;
+  --typography-label-large-text-case: none;
+  --typography-label-large-font: normal normal 500 16px/20px SF Pro;
+  /* label medium */
+  --typography-label-medium-font-size: 13px;
+  --typography-label-medium-font-family: SF Pro;
+  --typography-label-medium-font-weight: 500;
+  --typography-label-medium-font-style: normal;
+  --typography-label-medium-letter-spacing: -0.13px;
+  --typography-label-medium-line-height: 16px;
+  --typography-label-medium-text-decoration: none;
+  --typography-label-medium-text-case: none;
+  --typography-label-medium-font: normal normal 500 13px/16px SF Pro;
+  /* label small */
+  --typography-label-small-font-size: 12px;
+  --typography-label-small-font-family: Inter;
+  --typography-label-small-font-weight: 500;
+  --typography-label-small-font-style: normal;
+  --typography-label-small-letter-spacing: -0.096px;
+  --typography-label-small-line-height: 16px;
+  --typography-label-small-text-decoration: none;
+  --typography-label-small-text-case: none;
+  --typography-label-small-font: normal normal 500 12px/16px Inter;
+
+  /* ------------------------------------------------------------------------
+     3. COLOR ROLES - LIGHT THEME (DEFAULT)
+     ------------------------------------------------------------------------ */
+  --color-primary: var(--color-key-primary);
+  --color-onPrimary: var(--color-palette-primary-100);
+  --color-primaryContainer: var(--color-palette-primary-80);
+  --color-onPrimaryContainer: var(--color-palette-primary-30);
+  --color-secondary: var(--color-palette-secondary-40);
+  --color-onSecondary: var(--color-palette-secondary-100);
+  --color-secondaryContainer: var(--color-palette-secondary-80);
+  --color-onSecondaryContainer: var(--color-palette-secondary-30);
+  --color-tertiary: var(--color-palette-tertiary-40);
+  --color-onTertiary: var(--color-palette-tertiary-100);
+  --color-tertiaryContainer: var(--color-palette-tertiary-80);
+  --color-onTertiaryContainer: var(--color-palette-tertiary-30);
+  --color-error: var(--color-palette-error-40);
+  --color-onError: var(--color-palette-error-100);
+  --color-errorContainer: var(--color-palette-error-80);
+  --color-onErrorContainer: var(--color-palette-error-30);
+  --color-background: var(--color-palette-neutral-98);
+  --color-onBackground: var(--color-palette-neutral-10);
+  --color-surface: var(--color-palette-neutral-98);
+  --color-onSurface: var(--color-palette-neutral-10);
+  --color-surfaceVariant: var(--color-palette-neutralVariant-90);
+  --color-onSurfaceVariant: var(--color-palette-neutralVariant-30);
+  --color-outline: var(--color-palette-neutralVariant-50);
+  --color-outlineVariant: var(--color-palette-neutralVariant-80);
+  --color-inverseSurface: var(--color-palette-neutral-20);
+  --color-inverseOnSurface: var(--color-palette-neutral-95);
+  --color-inversePrimary: var(--color-palette-primary-80);
+  --color-surfaceDim: var(--color-palette-neutral-87);
+  --color-surfaceBright: var(--color-palette-neutral-98);
+  --color-surfaceContainerLowest: var(--color-palette-neutral-100);
+  --color-surfaceContainerLow: var(--color-palette-neutral-96);
+  --color-surfaceContainer: var(--color-palette-neutral-94);
+  --color-surfaceContainerHigh: var(--color-palette-neutral-92);
+  --color-surfaceContainerHighest: var(--color-palette-neutral-90);
+
+  /* ------------------------------------------------------------------------
+     4. RESPONSIVE TYPOGRAPHY MAPPING (Strict semantic variables for UI usage)
+     ------------------------------------------------------------------------ */
+  /* Desktop / Default Mappings */
+  --font-display-large: var(--typography-display-large-font);
+  --font-display-medium: var(--typography-display-medium-font);
+  --font-display-small: var(--typography-display-small-font);
+
+  --font-headline-large: var(--typography-headline-large-font);
+  --font-headline-small: var(--typography-headline-small-font);
+
+  --font-title-large: var(--typography-tile-large-font);
+  --font-title-medium: var(--typography-title-medium-font);
+  --font-title-small: var(--typography-title-small-font);
+
+  --font-body-large: var(--typography-body-large-font);
+  --font-body-medium: var(--typography-body-medium-font);
+  --font-body-small: var(--typography-body-small-font);
+
+  --font-label-large: var(--typography-label-large-font);
+  --font-label-medium: var(--typography-label-medium-font);
+  --font-label-small: var(--typography-label-small-font);
+}
+
+/* ------------------------------------------------------------------------
+   5. COLOR ROLES - DARK THEME OVERRIDES
+   ------------------------------------------------------------------------ */
+
+/* Auto dark-mode based on system preferences */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: var(--color-key-primary);
+    --color-onPrimary: var(--color-palette-primary-20);
+    --color-primaryContainer: var(--color-palette-primary-30);
+    --color-onPrimaryContainer: var(--color-palette-primary-90);
+    --color-secondary: var(--color-palette-secondary-80);
+    --color-onSecondary: var(--color-palette-secondary-20);
+    --color-secondaryContainer: var(--color-palette-secondary-30);
+    --color-onSecondaryContainer: var(--color-palette-secondary-90);
+    --color-tertiary: var(--color-palette-tertiary-80);
+    --color-onTertiary: var(--color-palette-tertiary-20);
+    --color-tertiaryContainer: var(--color-palette-tertiary-30);
+    --color-onTertiaryContainer: var(--color-palette-tertiary-90);
+    --color-error: var(--color-palette-error-80);
+    --color-onError: var(--color-palette-error-20);
+    --color-errorContainer: var(--color-palette-error-30);
+    --color-onErrorContainer: var(--color-palette-error-90);
+    --color-background: var(--color-palette-neutral-6);
+    --color-onBackground: var(--color-palette-neutral-90);
+    --color-surface: var(--color-palette-neutral-6);
+    --color-onSurface: var(--color-palette-neutral-90);
+    --color-surfaceVariant: var(--color-palette-neutralVariant-30);
+    --color-onSurfaceVariant: var(--color-palette-neutralVariant-80);
+    --color-outline: var(--color-palette-neutralVariant-60);
+    --color-outlineVariant: var(--color-palette-neutralVariant-30);
+    --color-inverseSurface: var(--color-palette-neutral-90);
+    --color-inverseOnSurface: var(--color-palette-neutral-20);
+    --color-inversePrimary: var(--color-palette-primary-40);
+    --color-surfaceDim: var(--color-palette-neutral-6);
+    --color-surfaceBright: var(--color-palette-neutral-24);
+    --color-surfaceContainerLowest: var(--color-palette-neutral-4);
+    --color-surfaceContainerLow: var(--color-palette-neutral-10);
+    --color-surfaceContainer: var(--color-palette-neutral-12);
+    --color-surfaceContainerHigh: var(--color-palette-neutral-17);
+    --color-surfaceContainerHighest: var(--color-palette-neutral-22);
+  }
+}
+
+/* Explicit class-based dark-mode theme selector */
+[data-theme="dark"] {
+  --color-primary: var(--color-key-primary);
+  --color-onPrimary: var(--color-palette-primary-20);
+  --color-primaryContainer: var(--color-palette-primary-30);
+  --color-onPrimaryContainer: var(--color-palette-primary-90);
+  --color-secondary: var(--color-palette-secondary-80);
+  --color-onSecondary: var(--color-palette-secondary-20);
+  --color-secondaryContainer: var(--color-palette-secondary-30);
+  --color-onSecondaryContainer: var(--color-palette-secondary-90);
+  --color-tertiary: var(--color-palette-tertiary-80);
+  --color-onTertiary: var(--color-palette-tertiary-20);
+  --color-tertiaryContainer: var(--color-palette-tertiary-30);
+  --color-onTertiaryContainer: var(--color-palette-tertiary-90);
+  --color-error: var(--color-palette-error-80);
+  --color-onError: var(--color-palette-error-20);
+  --color-errorContainer: var(--color-palette-error-30);
+  --color-onErrorContainer: var(--color-palette-error-90);
+  --color-background: var(--color-palette-neutral-6);
+  --color-onBackground: var(--color-palette-neutral-90);
+  --color-surface: var(--color-palette-neutral-6);
+  --color-onSurface: var(--color-palette-neutral-90);
+  --color-surfaceVariant: var(--color-palette-neutralVariant-30);
+  --color-onSurfaceVariant: var(--color-palette-neutralVariant-80);
+  --color-outline: var(--color-palette-neutralVariant-60);
+  --color-outlineVariant: var(--color-palette-neutralVariant-30);
+  --color-inverseSurface: var(--color-palette-neutral-90);
+  --color-inverseOnSurface: var(--color-palette-neutral-20);
+  --color-inversePrimary: var(--color-palette-primary-40);
+  --color-surfaceDim: var(--color-palette-neutral-6);
+  --color-surfaceBright: var(--color-palette-neutral-24);
+  --color-surfaceContainerLowest: var(--color-palette-neutral-4);
+  --color-surfaceContainerLow: var(--color-palette-neutral-10);
+  --color-surfaceContainer: var(--color-palette-neutral-12);
+  --color-surfaceContainerHigh: var(--color-palette-neutral-17);
+  --color-surfaceContainerHighest: var(--color-palette-neutral-22);
+}
+
+/* Explicit class-based light-mode theme selector */
+[data-theme="light"] {
+  --color-primary: var(--color-key-primary);
+  --color-onPrimary: var(--color-palette-primary-100);
+  --color-primaryContainer: var(--color-palette-primary-80);
+  --color-onPrimaryContainer: var(--color-palette-primary-30);
+  --color-secondary: var(--color-palette-secondary-40);
+  --color-onSecondary: var(--color-palette-secondary-100);
+  --color-secondaryContainer: var(--color-palette-secondary-80);
+  --color-onSecondaryContainer: var(--color-palette-secondary-30);
+  --color-tertiary: var(--color-palette-tertiary-40);
+  --color-onTertiary: var(--color-palette-tertiary-100);
+  --color-tertiaryContainer: var(--color-palette-tertiary-80);
+  --color-onTertiaryContainer: var(--color-palette-tertiary-30);
+  --color-error: var(--color-palette-error-40);
+  --color-onError: var(--color-palette-error-100);
+  --color-errorContainer: var(--color-palette-error-80);
+  --color-onErrorContainer: var(--color-palette-error-30);
+  --color-background: var(--color-palette-neutral-98);
+  --color-onBackground: var(--color-palette-neutral-10);
+  --color-surface: var(--color-palette-neutral-98);
+  --color-onSurface: var(--color-palette-neutral-10);
+  --color-surfaceVariant: var(--color-palette-neutralVariant-90);
+  --color-onSurfaceVariant: var(--color-palette-neutralVariant-30);
+  --color-outline: var(--color-palette-neutralVariant-50);
+  --color-outlineVariant: var(--color-palette-neutralVariant-80);
+  --color-inverseSurface: var(--color-palette-neutral-20);
+  --color-inverseOnSurface: var(--color-palette-neutral-95);
+  --color-inversePrimary: var(--color-palette-primary-80);
+  --color-surfaceDim: var(--color-palette-neutral-87);
+  --color-surfaceBright: var(--color-palette-neutral-98);
+  --color-surfaceContainerLowest: var(--color-palette-neutral-100);
+  --color-surfaceContainerLow: var(--color-palette-neutral-96);
+  --color-surfaceContainer: var(--color-palette-neutral-94);
+  --color-surfaceContainerHigh: var(--color-palette-neutral-92);
+  --color-surfaceContainerHighest: var(--color-palette-neutral-90);
+}
+
+/* ------------------------------------------------------------------------
+   6. RESPONSIVE TYPOGRAPHY OVERRIDES (Mobile scale downs)
+   ------------------------------------------------------------------------ */
+@media (max-width: 768px) {
+  :root {
+    /* Scale down display styles by one level */
+    --font-display-large: var(--typography-display-medium-font);
+    --font-display-medium: var(--typography-display-small-font);
+    --font-display-small: var(--typography-headline-large-font);
+
+    /* Scale down headline styles */
+    --font-headline-large: var(--typography-headline-small-font);
+    --font-headline-small: var(--typography-tile-large-font);
+
+    /* Scale down title styles */
+    --font-title-large: var(--typography-title-medium-font);
+    --font-title-medium: var(--typography-title-small-font);
+    --font-title-small: var(--typography-body-large-font);
+
+    /* Body and labels remain stable for high readability on small screens */
+  }
+}
