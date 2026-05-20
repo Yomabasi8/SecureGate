@@ -1,6 +1,6 @@
 # SecureGate — Reflection & Engineering Analysis
 
-**Name:** Marv Oma
+**Name:** Yomabasi Fortune Bassey
 **Cohort:** Design to MVP Bootcamp
 **Live URL:** https://secure-gate-mu.vercel.app
 **GitHub Repo:** https://github.com/Yomabasi8/SecureGate
@@ -9,7 +9,7 @@
 
 ## Part 1 — What I Built
 
-SecureGate is a production-grade authentication and identity management application built with Next.js 14, Prisma, PostgreSQL, and NextAuth.js. It handles the full auth lifecycle: user registration with email verification via Resend, secure login with IP-based rate limiting, forgot/reset password flow, session management with JWT, route protection for the dashboard, and a password strength indicator for user safety.
+I built SecureGate, a production-grade authentication and identity management application with Next.js 14, Prisma, PostgreSQL, and NextAuth.js. It handles the full authentication lifecycle from user registration with email verification .
 
 ## Part 2 — What Surprised Me
 
